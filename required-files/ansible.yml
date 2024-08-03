@@ -1,4 +1,4 @@
-- hosts: kslave1
+- hosts: localhost
   become: yes
   tasks:
         - name: Build an image and push it to a docker repository
